@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'ssfonts';
+    src:    url('fonts/ssfonts.eot?u5grcf');
+    src:    url('fonts/ssfonts.eot?u5grcf#iefix') format('embedded-opentype'),
+        url('fonts/ssfonts.ttf?u5grcf') format('truetype'),
+        url('fonts/ssfonts.woff?u5grcf') format('woff'),
+        url('fonts/ssfonts.svg?u5grcf#ssfonts') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'ssfonts' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_add:before {
+    content: "\e900";
+}
+.icon_arrow_down:before {
+    content: "\e901";
+}
+.icon_back:before {
+    content: "\e902";
+}
+.icon_baidu:before {
+    content: "\e903";
+}
+.icon_checkbox:before {
+    content: "\e904";
+}
+.icon_close:before {
+    content: "\e905";
+}
+.icon_code:before {
+    content: "\e906";
+}
+.icon_course:before {
+    content: "\e907";
+}
+.icon_home:before {
+    content: "\e908";
+}
+.icon_loading:before {
+    content: "\e909";
+}
+.icon_lock:before {
+    content: "\e90a";
+}
+.icon_more:before {
+    content: "\e90b";
+}
+.icon_my:before {
+    content: "\e90c";
+}
+.icon_password:before {
+    content: "\e90d";
+}
+.icon_phone:before {
+    content: "\e90e";
+}
+.icon_practice:before {
+    content: "\e90f";
+}
+.icon_qqicon:before {
+    content: "\e910";
+}
+.icon_reduce:before {
+    content: "\e911";
+}
+.icon_search:before {
+    content: "\e912";
+}
+.icon_success:before {
+    content: "\e913";
+}
+.icon_teacher:before {
+    content: "\e914";
+}
+.icon_user:before {
+    content: "\e915";
+}
+.icon_video:before {
+    content: "\e916";
+}
+.icon_weibo:before {
+    content: "\e917";
+}
+.icon_weixin_pay:before {
+    content: "\e918";
+}
+.icon_weixin:before {
+    content: "\e919";
+}
+.icon_zhifubao_pay .path1:before {
+    content: "\e91a";
+    color: rgb(77, 77, 77);
+}
+.icon_zhifubao_pay .path2:before {
+    content: "\e91b";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon_zhike_logo:before {
+    content: "\e91c";
+}
+.icon-comment:before {
+    content: "\e91d";
+}
+.icon-down:before {
+    content: "\e91e";
+}
+.icon-right:before {
+    content: "\e91f";
+}
+.icon-stars:before {
+    content: "\e920";
+}
+.icon-up:before {
+    content: "\e921";
+}
