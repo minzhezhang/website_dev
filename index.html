@@ -1,0 +1,501 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="Keywords" content=" 培训课程 - Interview, Code, Google, Facebook, Linkedin, Amazon, Microsoft, LeetCode" />
+    <meta name="description" content=" 培训课程 - 九章算法致力于帮助更多中国人找到好工作" />
+    <title>九章培训课程 - 硅谷顶尖IT企业一线工程师直播教学</title>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+
+    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/aura/3dParty/rs-plugin/css/pi.settings.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/3dParty/colorbox/colorbox.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/3dParty/fontello/css/fontello.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/typo.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/portfolio.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/slider.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/counters.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/social.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/tables.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/tooltips.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/accordion.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/tabs.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/css/jquery.datetimepicker.css"/>
+    <style type="text/css">
+    .errorlist {
+      color: #e86343 !important
+    }
+    </style>
+    
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/timeline.css">
+    <link rel="stylesheet" type="text/css" href="/static/aura/css/boxes.css">
+    <style>
+    .pi-timeline{
+    float:none;
+    }
+    .content-fbox {
+        display: -moz-box;
+        -moz-box-orient: horizontal;
+        -moz-box-pack: center;
+        -moz-box-align: center;
+        display: -webkit-box;
+        -webkit-box-orient: horizontal;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+    }
+    .box1 {
+    }
+    .box2 {
+        -moz-box-flex: 1;
+        -webkit-box-flex: 1;
+    }
+    .box3 {
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/static/css/hint.min.css">
+
+
+    <script>
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+
+    function removeCookie(name) {
+        document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/;';
+    }
+
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays*24*60*60*1000));
+        var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + "; " + expires +"; path=/;";
+    }
+
+    function getPosition(element) {
+        var xPosition = 0;
+        var yPosition = 0;  
+    while(element) {
+        xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
+        yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
+        element = element.offsetParent;
+        }
+        return { x: xPosition, y: yPosition };
+    }
+    </script>
+
+    
+
+</head>
+
+<body>
+
+<div id="pi-all">
+
+
+<!-- Header -->
+<div class="pi-header">
+    <!-- Header row -->
+    <div class="pi-section-w pi-section-dark">
+        <div class="pi-section pi-row-sm">
+            <div class="pi-row-block">
+                <ul class="pi-menu pi-has-hover-border pi-items-have-borders pi-full-height pi-hidden-xs">
+                    
+                    <li><a href="/accounts/profile/"><i class="icon-home pi-no-margin-right"></i> 我的课程</a></li>
+                    
+                    <li class="pi-has-dropdown">
+                      <a href="/course/"><i class="icon-book"></i>课程</a>
+                      <ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
+                        <li><a href="/course/1/">九章算法班</a></li>
+                        <li><a href="/course/2/">系统设计班</a></li>
+                        <li><a href="/course/5/">九章算法强化班</a></li>
+                        <li><a href="/course/7/">Java入门与基础算法</a></li>
+                        <li><a href="/story/">学员故事</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/seminar/"><i class="fa fa-calendar"></i>讲座</a></li>
+                    <li><a href="/qa/"><i class="fa fa-comments"></i>问答</a></li>
+                    </li>
+                    <li class="pi-has-dropdown">
+                      <a href="#"><i class="icon-pagelines"></i>面经</a>
+                      <ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
+                        <li><a href="/problem/">面试题目</a></li>
+                        <li><a href="/interview/">面经分享</a></li>
+                      </ul>
+                    </li>
+                    <li class="pi-has-dropdown">
+                      <a href="#"><i class="fa fa-code"></i>LeetCode答案</a>
+                      <ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
+                        <li><a href="/solutions/">LeetCode答案</a></li>
+                        <li><a href="/solutions/">LintCode答案</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/faq/"><i class="icon-help"></i>FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="pi-row-block pi-hidden-lg-only pi-hidden-md-only">
+                <button class="btn pi-btn pi-mobile-menu-toggler" data-target="#pi-main-mobile-menu">
+                    <i class="icon-menu pi-text-center"></i>
+                </button>
+            </div>
+
+            <div id="pi-main-mobile-menu" class="pi-section-menu-mobile-w pi-section-dark">
+                <div class="pi-section-menu-mobile">
+                    <ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
+                        <li><a href="/"><i class="icon-home"></i>主页</a></li>
+                        <li><a href="/course/"><i class="icon-book"></i>课程</a></li>
+                        <li><a href="/seminar/"><i class="fa fa-calendar"></i>讲座</a></li>
+                        <li><a href="/qa/"><i class="fa fa-comments"></i>问答</a></li>
+                        <li><a href="/story/"><i class="fa fa-users"></i>学员故事</a></li>
+                        <li><a href="/problem/"><i class="fa fa-puzzle-piece"></i>面试题目</a></li>
+                        <li><a href="/interview/"><i class="icon-pagelines"></i>面经分享</a></li>
+                        <li><a href="/solutions/"><i class="fa fa-code"></i>LeetCode答案</a></li>
+                        <li><a href="/solutions/"><i class="fa fa-code"></i>LintCode答案</a></li>
+                        <li><a href="/faq/"><i class="icon-help"></i>FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <div class="pi-row-block pi-pull-right">
+                <ul class="pi-menu pi-has-hover-border pi-items-have-borders pi-full-height pi-hidden-xs">
+                    
+                    
+                    <li class="pi-has-dropdown">
+                      <a href="#"><i class="icon-user"></i> Minzhe</a>
+                      <ul class="pi-submenu pi-has-border pi-items-have-borders pi-has-shadow pi-submenu-dark">
+                        <li><a href="/accounts/profile/edit/"><i class="icon-vcard"></i>资料修改</a></li>
+                        <li><a href="/accounts/profile/password/"><i class="icon-lock"></i>重置密码</a></li>
+                        <li><a href="/accounts/profile/coupon/"><i class="fa fa-money"></i>优惠劵</a></li>
+                        
+                        
+                        <li><a href="/accounts/logout/"><i class="icon-logout"></i>登出</a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="pi-row-block pi-hidden-lg-only pi-hidden-md-only pi-pull-right">
+                <button class="btn pi-btn pi-btn-base pi-mobile-menu-toggler"
+                   data-target="#pi-account-mobile-menu">
+                   <i class="icon-user"></i> 我的九章
+                </button>
+            </div>
+            <div id="pi-account-mobile-menu" class="pi-section-menu-mobile-w pi-section-dark">
+                <div class="pi-section-menu-mobile">
+                    <ul class="pi-menu-mobile pi-items-have-borders pi-menu-mobile-dark">
+                        <li><a href="/accounts/profile/edit/"><i class="icon-vcard"></i>资料修改</a></li>
+                        <li><a href="/accounts/profile/password/"><i class="icon-lock"></i>重置密码</a></li>
+                        <li><a href="/accounts/profile/coupon/"><i class="fa fa-money"></i>优惠劵</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- End header -->
+
+<div id="overlord">
+
+<div class="pi-section-w pi-slider-enabled piTooltips piSocials">
+    <div class="pi-section-w pi-padding-bottom-10">
+        <div class="pi-row">
+            <div class="pi-section-w pi-section-base pi-shadow-inside">
+                <div class="pi-texture" style="background: url(/static/aura/img/hexagon.png) repeat"></div>
+                <div class="pi-section pi-section-md pi-titlebar pi-titlebar-breadcrumb-right pi-titlebar-small">
+                    <h1>
+<i class="icon-book"></i> 培训课程
+</h1>
+
+                    <div class="pi-breadcrumb">当前位置
+                        <ul>
+                            <li><a href="/">首页</a></li>
+                            
+<li>培训课程</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+            
+
+<div class="pi-section-w pi-section-white">
+    <div class="pi-section pi-no-padding-bottom">
+    <div class="pi-row pi-padding-bottom-20 isotope">
+  
+  <div class="pi-col-sm-6 pi-col-md-4 pi-col-lg-3 isotope-item">
+    <div class="pi-portfolio-item pi-portfolio-description-box pi-portfolio-item-round-corners">
+      <div class="pi-img-w pi-img-round-corners pi-img-hover-zoom">
+        <a href="/course/1">
+          <img src="/media/course/suanfa-S-01-450.jpg" alt="">
+          <div class="pi-img-overlay pi-no-padding pi-img-overlay-dark">
+            <div class="pi-caption-centered">
+              <div>
+                <span class="pi-caption-icon pi-caption-icon-dark pi-caption-scale icon-search"></span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="pi-portfolio-description pi-portfolio-description-round-corners" style="padding:12px 14px">
+        <h2 class="h4">
+          <a href="/course/1" class="pi-link-no-style">九章算法班</a>
+        </h2>
+        硅谷求职必上，FLAG敲门砖，成为Offer收割机。
+        <hr class="pi-divider pi-margin-bottom-10">
+        <div>
+          <span class="pull-right">
+            <i class="icon-clock"></i>
+            18课时
+          </span>
+          <span>
+            
+            
+              
+              <span class="pi-text-base">5 日，1 小时后开课</span>
+              
+            
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="pi-col-sm-6 pi-col-md-4 pi-col-lg-3 isotope-item">
+    <div class="pi-portfolio-item pi-portfolio-description-box pi-portfolio-item-round-corners">
+      <div class="pi-img-w pi-img-round-corners pi-img-hover-zoom">
+        <a href="/course/2">
+          <img src="/media/course/system-S-01-450.jpg" alt="">
+          <div class="pi-img-overlay pi-no-padding pi-img-overlay-dark">
+            <div class="pi-caption-centered">
+              <div>
+                <span class="pi-caption-icon pi-caption-icon-dark pi-caption-scale icon-search"></span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="pi-portfolio-description pi-portfolio-description-round-corners" style="padding:12px 14px">
+        <h2 class="h4">
+          <a href="/course/2" class="pi-link-no-style">系统设计班</a>
+        </h2>
+        怎样设计Facebook？理解Google的三驾马车！
+        <hr class="pi-divider pi-margin-bottom-10">
+        <div>
+          <span class="pull-right">
+            <i class="icon-clock"></i>
+            14课时
+          </span>
+          <span>
+            
+            
+              
+              <span class="pi-text-base">5 日，16 小时后开课</span>
+              
+            
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="pi-col-sm-6 pi-col-md-4 pi-col-lg-3 isotope-item">
+    <div class="pi-portfolio-item pi-portfolio-description-box pi-portfolio-item-round-corners">
+      <div class="pi-img-w pi-img-round-corners pi-img-hover-zoom">
+        <a href="/course/5">
+          <img src="/media/course/gaosuan_1.png" alt="">
+          <div class="pi-img-overlay pi-no-padding pi-img-overlay-dark">
+            <div class="pi-caption-centered">
+              <div>
+                <span class="pi-caption-icon pi-caption-icon-dark pi-caption-scale icon-search"></span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="pi-portfolio-description pi-portfolio-description-round-corners" style="padding:12px 14px">
+        <h2 class="h4">
+          <a href="/course/5" class="pi-link-no-style">九章算法强化班</a>
+        </h2>
+        寒冬期，算法面试越来越难，你需要充电！
+        <hr class="pi-divider pi-margin-bottom-10">
+        <div>
+          <span class="pull-right">
+            <i class="icon-clock"></i>
+            14课时
+          </span>
+          <span>
+            
+            
+              
+              <span class="pi-text-base">2 周，4 日后开课</span>
+              
+            
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="pi-col-sm-6 pi-col-md-4 pi-col-lg-3 isotope-item">
+    <div class="pi-portfolio-item pi-portfolio-description-box pi-portfolio-item-round-corners">
+      <div class="pi-img-w pi-img-round-corners pi-img-hover-zoom">
+        <a href="/course/7">
+          <img src="/media/course/java5.png" alt="">
+          <div class="pi-img-overlay pi-no-padding pi-img-overlay-dark">
+            <div class="pi-caption-centered">
+              <div>
+                <span class="pi-caption-icon pi-caption-icon-dark pi-caption-scale icon-search"></span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="pi-portfolio-description pi-portfolio-description-round-corners" style="padding:12px 14px">
+        <h2 class="h4">
+          <a href="/course/7" class="pi-link-no-style">Java入门与基础算法班</a>
+        </h2>
+        不会Java？转专业找CS？算法零基础？
+        <hr class="pi-divider pi-margin-bottom-10">
+        <div>
+          <span class="pull-right">
+            <i class="icon-clock"></i>
+            16课时
+          </span>
+          <span>
+            
+              等待下次开课
+            
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>    
+    </div>
+
+    <div class="pi-section pi-padding-bottom-60">
+        <div class="pi-shadow-effect7"> 
+            <div class="pi-box pi-border pi-round pi-border-top pi-text-center">                
+                <h4 class="pi-weight-600">
+                    教授您擅长的课程，帮助更多中国人找到好工作！
+                </h4>
+                <p>
+                    我们需要您有一技之长，就职名企，乐为人师，口齿清晰。<br>
+                    如果您希望教授算法课，我们希望您：有过算法竞赛背景或者刷题数目超过 2000 题。因为我们的每位算法讲师都不低于这个刷题数。<br>
+                    您也可以根据自身擅长的技术开设如下课程：<br>
+                    Web前端开发，Web后端开发，IOS开发，Android开发，机器学习，数据分析师，或者其他您擅长的与IT求职相关的课程。<br>
+                </p>
+                <p>
+                    <a href="/cdn-cgi/l/email-protection#4920272f260923203c332128272e672a2624" class="btn pi-btn-base" style="margin-right: 10px;">
+                        了解更多
+                    </a>
+                </p>
+                
+            </div>
+        </div>        
+    </div>
+</div>
+
+
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+
+<!-- Copyright area -->
+<div class="pi-section-w pi-section-dark pi-border-top-light pi-border-bottom-strong-base">
+    <div class="pi-section pi-row-lg pi-center-text-2xs pi-clearfix">
+
+        <!-- Social icons -->
+        <div class="pi-row-block pi-pull-right pi-hidden-2xs">
+            <ul class="pi-social-icons-simple pi-small clearFix">
+                <li><a href="/cdn-cgi/l/email-protection#f39a9d959cb3999a86899b929d94dd909c9e" class="pi-social-icon-mail"><i class="icon-mail"></i></a></li>
+                <li><a href="http://weibo.com/ninechapter" class="pi-social-icon-weibo"><i class="icon-weibo"></i></a></li>
+            </ul>
+        </div>
+        <!-- End social icons -->
+
+        <!-- Footer logo -->
+        <div class="pi-row-block pi-row-block-logo pi-row-block-bordered"><a href="#"><img src="/static/img/logo-opacity-dark.png" alt=""></a></div>
+        <!-- End footer logo -->
+        <!-- Text -->
+        <span class="pi-row-block pi-row-block-txt pi-hidden-xs">
+            &copy; Jiu Zhang 2013-2015. All rights reserved.
+        </span>
+        <!-- End text -->
+    </div>
+</div>
+<!-- End copyright area -->
+<!-- End footer -->
+
+
+
+</div>
+<script src="/static/aura/3dParty/jquery-1.11.0.min.js"></script>
+<script src="/static/aura/3dParty/jquery.touchSwipe.min.js"></script>
+<script src="/static/aura/3dParty/gauge.min.js"></script>
+<script src="/static/aura/3dParty/inview.js"></script>
+<script src="/static/aura/3dParty/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script src="/static/aura/3dParty/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="/static/aura/3dParty/jquery.scrollTo.min.js"></script>
+<script src="/static/aura/3dParty/colorbox/jquery.colorbox-min.js"></script>
+<script src="/static/aura/scripts/pi.global.js"></script>
+<script src="/static/aura/scripts/pi.slider.js"></script>
+<script src="/static/aura/scripts/pi.init.slider.js"></script>
+<script src="/static/aura/3dParty/jquery.easing.1.3.js"></script>
+<script src="/static/aura/scripts/pi.counter.js"></script>
+<script src="/static/aura/scripts/pi.init.counter.js"></script>
+<script src="/static/aura/scripts/pi.parallax.js"></script>
+<script src="/static/aura/scripts/pi.init.parallax.js"></script>
+<script src="/static/aura/scripts/pi.init.revolutionSlider.js"></script>
+<script src="/static/aura/scripts/pi.init.social.js"></script>
+<script src="/static/aura/scripts/pi.init.tab.js"></script>
+<script src="/static/aura/scripts/pi.tab.js"></script>
+<script src="/static/aura/scripts/pi.accordion.js"></script>
+<script src="/static/aura/scripts/pi.init.animations.js"></script>
+
+
+<script src="//meiqia.com/js/mechat.js?unitid=559388884eae352f39000013" charset="UTF-8" async="async"></script>
+
+
+
+<script>
+  window.intercomSettings = {
+    // TODO: The current logged in user's full name
+    name: "Minzhe",
+    // TODO: The current logged in user's email address.
+    email: "zhangmz1333@gmail.com",
+    // TODO: The current logged in user's sign-up date as a Unix timestamp.
+    created_at: 1453060070,
+    app_id: "en2qubp4"
+  };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/en2qubp4';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+
+</html>
